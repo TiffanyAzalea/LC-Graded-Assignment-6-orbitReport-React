@@ -4,6 +4,9 @@ const Table = ({ sat }) => {
        <thead>
         <tr>
           <th>Header TBD</th>
+          <th></th>
+          <th></th>
+          <th></th>
         </tr>
         </thead>
         <tbody>
