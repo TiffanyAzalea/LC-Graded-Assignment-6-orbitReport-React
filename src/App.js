@@ -16,7 +16,7 @@ function App() {
     setSat(displaySats);
  };
 
-//might need a key???
+
 
   return (
     <div>

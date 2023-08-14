@@ -1,6 +1,6 @@
 
 const Table = ({ sat }) => {
-  
+
  
   return (
       <table>
@@ -30,4 +30,4 @@ const Table = ({ sat }) => {
 
 export default Table;
 
-// do I need satData.id or just key =id???
+
