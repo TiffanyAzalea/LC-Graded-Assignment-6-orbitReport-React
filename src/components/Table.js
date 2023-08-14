@@ -1,5 +1,4 @@
 
-
 const Table = ({ sat }) => {
   
  
@@ -14,15 +13,15 @@ const Table = ({ sat }) => {
         </tr>
         </thead>
         <tbody>
-         {displaySats.map((id, satData) => {
-          return 
+         {sat.map((data, id) => {
+          return (
 
         <tr key={id}>
-          <td>{satData.name}</td>
-          <td>{satData.type}</td>
-          <td>{satData.launchDate}</td>
-          <td>{satData.operational ? "Active" : "Inactive"}</td>
-        </tr>
+          <td>{data.name}</td>
+          <td>{data.type}</td>
+          <td>{data.launchDate}</td>
+          <td>{data.operational ? "Active" : "Inactive"}</td>
+        </tr> );
          })};
         </tbody>
       </table>
@@ -31,3 +30,4 @@ const Table = ({ sat }) => {
 
 export default Table;
 
+// do I need satData.id or just key =id???
